@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GraduationProject</string>
+    <string name="hello1">환영합니다</string>
+    <string name="service_yakgwan">서비스 이용약관 동의 <u>(필수)</u></string>
+    <string name="gaein_yakgwan">개인정보 수집 및 이용 동의 <u>(필수)</u></string>
+    <string name="location_yakgwan">위치서비스 이용 동의 <u>(필수)</u></string>
+</resources>

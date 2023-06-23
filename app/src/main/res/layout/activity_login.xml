@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:drawable="@drawable/kakao_login"
+
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="245dp"
+        android:layout_height="83dp"
+        android:layout_gravity="center"
+
+        android:layout_marginTop="130dp"
+        android:src="@drawable/ic_logo"></ImageView>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/notosanskr_medium"
+        android:text="@string/hello1"
+        android:textColor="#424242"
+        android:textSize="24dp"></TextView>
+
+
+
+    <ImageView
+        android:id="@+id/btn_email_login"
+        android:layout_width="370dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:clickable="true"
+        android:src="@drawable/ic_group_17" />
+
+    <ImageView
+        android:layout_width="340dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_sns_login"></ImageView>
+
+
+
+
+    <ImageView
+        android:id="@+id/btn_kakaologin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:clickable="true"
+        android:src="@drawable/kakao_login" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="gone"/>
+</LinearLayout>

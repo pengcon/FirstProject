@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/frame_14"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:clipToOutline="true"
+        android:gravity="center"
+        android:background="@drawable/ic_frame_14"
+
+        >
+
+        <ImageView
+            android:id="@+id/imageView2"
+
+            android:layout_width="52dp"
+            android:layout_height="30dp"
+
+            app:srcCompat="@drawable/ic_logo" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/Ai"
+        android:layout_width="360dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/ic_group_11__1_" />
+
+
+    <ImageView
+        android:id="@+id/banner"
+        android:layout_width="360dp"
+        android:layout_height="173dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/banner" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_navi" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="500dp"
+        android:layout_height="13dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/rectangle" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="309dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/notosanskr_medium"
+        android:includeFontPadding="false"
+        android:text="완벽한 여행을 위한 세련된 숙소"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="normal" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:orientation="horizontal"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/gyeonggi_food"
+                android:layout_width="210dp"
+                android:layout_height="162dp"
+                android:layout_marginEnd="22dp"
+                android:layout_weight="1"
+                android:text="맛집/음식관광"
+                android:fontFamily="@font/notosanskr_medium"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                />
+
+            <!--            <TextView-->
+            <!--                android:id="@+id/gyeonggi_eco"-->
+            <!--                android:layout_width="212dp"-->
+            <!--                android:layout_height="162dp"-->
+            <!--                android:layout_marginEnd="20dp"-->
+            <!--                android:layout_weight="1"-->
+            <!--                android:text="생태 관광"-->
+            <!--                android:fontFamily="@font/notosanskr_medium"-->
+            <!--                android:textSize="25dp"-->
+            <!--                android:gravity="center"-->
+            <!--                android:textColor="@color/white"-->
+            <!--                android:background="@drawable/sofa_test"/>-->
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="309dp"
+        android:layout_height="44dp"
+        android:fontFamily="@font/notosanskr_medium"
+        android:includeFontPadding="false"
+        android:text="지역의 특색이 담긴 소상공인 가게"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:textStyle="normal" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="30dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"/>
+    </HorizontalScrollView>
+</LinearLayout>
