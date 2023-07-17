@@ -26,7 +26,9 @@
         android:fontFamily="@font/notosanskr_medium"
         android:text="@string/hello1"
         android:textColor="#424242"
-        android:textSize="24dp"></TextView>
+        android:textSize="24dp"
+
+        ></TextView>
 
 
 

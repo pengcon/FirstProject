@@ -84,7 +84,7 @@ public class MapActivity extends AppCompatActivity implements MapView.CurrentLoc
 
         /* 마커를 표시하자 */
         MapPOIItem customMarker = new MapPOIItem();
-        MapPoint mapPoint= MapPoint.mapPointWithGeoCoord(37.3750804, 126.632814); //마커 표시할 위도경도
+        MapPoint mapPoint= MapPoint.mapPointWithGeoCoord(37.3750804, 126.632814 ); //마커 표시할 위도경도
         customMarker.setItemName("학교");
         customMarker.setTag(1);
         customMarker.setMapPoint(mapPoint);
