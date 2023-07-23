@@ -24,7 +24,7 @@
         //구글 맵
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyB5TAi5FH9uQNqb9c1O4joZ9njAib3f0BE" />
+            android:value="AIzaSyAV_sjZngj87Gf9WsEnEI6TTgCDS8poR5w" />
 
         <activity android:name=".MainActivity"
             android:exported="false"/>
@@ -36,16 +36,25 @@
 
         <activity android:name="API"
             android:exported="true">
+
+        </activity>
+        <activity android:name=".GoogleMapActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+        </activity>
+        <activity android:name=".GoogleMapActivity2"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".GoogleMapActivity"
-            android:exported="true"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-
         </activity>
         <activity android:name=".MapActivity"
             android:exported="true"
