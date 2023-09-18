@@ -17,17 +17,24 @@ buildscript {
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.0"
 
         classpath 'com.google.gms:google-services:4.3.13'
+        // oss licenses plugin 추가
+        classpath 'com.google.android.gms:oss-licenses-plugin:0.10.4'
 
     }
 
 }
 
 
+
+
 plugins {
     id 'com.android.application' version '7.2.1' apply false
     id 'com.android.library' version '7.2.1' apply false
 
+
 }
+
+
 
 
 task clean(type: Delete) {

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:enabled="true"
+        android:icon="@drawable/ic_home"
+        android:title="홈"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/trip"
+        android:enabled="true"
+        android:icon="@drawable/ic_trip"
+        android:title="여행추천 받기"
+        app:showAsAction="always"/>
+
+
+
+
+    <item
+        android:id="@+id/map"
+        android:enabled="true"
+        android:icon="@drawable/ic_loc"
+        android:title="내주변"
+        app:showAsAction="always"/>
+
+
+
+    <item
+        android:id="@+id/mypage"
+        android:enabled="true"
+        android:icon="@drawable/ic_my"
+        android:title="MY"
+        app:showAsAction="always"/>
+
+</menu>

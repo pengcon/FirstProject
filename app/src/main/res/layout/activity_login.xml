@@ -14,7 +14,7 @@
         android:layout_height="83dp"
         android:layout_gravity="center"
 
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="100dp"
         android:src="@drawable/ic_logo"></ImageView>
 
 
@@ -34,9 +34,8 @@
 
     <ImageView
         android:id="@+id/btn_email_login"
-        android:layout_width="370dp"
+        android:layout_width="match_parent"
         android:layout_height="68dp"
-        android:layout_gravity="center"
         android:layout_marginTop="15dp"
         android:layout_marginBottom="10dp"
         android:layout_marginStart="20dp"

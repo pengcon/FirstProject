@@ -1,17 +1,46 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".GoogleMapActivity2" >
+    tools:context=".GoogleMapActivity2">
 
     <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/map"
-        tools:context=".MapsActivity"
-        android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+        tools:context=".MapsActivity" />
+
+    <fragment
+        android:id="@+id/autocomplete_fragment"
+        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+        app:layout_anchorGravity = "top|center_horizontal|clip_vertical"
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_sheet_layout"
+        app:behavior_hideable = "false"
+        app:behavior_peekHeight = "30dp"
+        app:layout_behavior = "@string/bottom_sheet_behavior"
+        android:orientation="vertical"
+        android:background="@android:color/white"
+        >
+        <View
+            android:id="@+id/handle"
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@android:color/darker_gray"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id ="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
 
 
-</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

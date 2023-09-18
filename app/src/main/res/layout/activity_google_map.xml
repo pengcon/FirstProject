@@ -7,6 +7,8 @@
     android:orientation="vertical"
     tools:context=".GoogleMapActivity" >
 
+
+
     <fragment
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -16,11 +18,12 @@
         android:name="com.google.android.gms.maps.SupportMapFragment" />
 
 
+
     <Button
         android:text="장소검색"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.2"
+        android:layout_weight="0.1"
         android:id="@+id/button"/>
 
 

@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:318999794698:android:85238017a33adba2c77bf3",
         "android_client_info": {
-          "package_name": "com.example.graduationproject"
+          "package_name": "com.myapp.graduationproject"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "318999794698-otbhcj3j6nqft8koomfku9vs47mnknoc.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.graduationproject",
+            "package_name": "com.myapp.graduationproject",
             "certificate_hash": "fc5c878d9514bf2953878c95483ad3cd4746222d"
           }
         },

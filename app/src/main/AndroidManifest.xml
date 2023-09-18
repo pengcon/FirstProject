@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.graduationproject">
+    package="com.myapp.graduationproject">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <application
 
-        android:name=".kakaoLogin"
+        android:name="com.myapp.graduationproject.kakaoLogin"
         android:allowBackup="false"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -26,43 +26,62 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyAV_sjZngj87Gf9WsEnEI6TTgCDS8poR5w" />
 
-        <activity android:name=".MainActivity"
-            android:exported="false"/>
+        <activity android:name="com.myapp.graduationproject.MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+<!--        <intent-filter>-->
+<!--            <action android:name="android.intent.action.MAIN" />-->
+
+<!--            <category android:name="android.intent.category.LAUNCHER" />-->
+<!--        </intent-filter>-->
+        </activity>
+
+        <activity android:name="com.myapp.graduationproject.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
 
 
-        <activity android:name=".LoginActivity"/>
-        <activity android:name=".EmailLoginActivity"/>
-        <activity android:name=".SignUp"/>
 
-        <activity android:name="API"
+        <activity android:name="com.myapp.graduationproject.EmailLoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name="com.myapp.graduationproject.SignUp"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+        <activity android:name="com.myapp.graduationproject.RecommendActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        </activity>
+
+        <activity android:name="com.myapp.graduationproject.API"
             android:exported="true">
 
         </activity>
-        <activity android:name=".GoogleMapActivity"
+        <activity android:name="com.myapp.graduationproject.GoogleMapActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-<!--            <intent-filter>-->
-<!--                <action android:name="android.intent.action.MAIN" />-->
 
-<!--                <category android:name="android.intent.category.LAUNCHER" />-->
-<!--            </intent-filter>-->
         </activity>
-        <activity android:name=".GoogleMapActivity2"
+        <activity android:name="com.myapp.graduationproject.GoogleMapActivity2"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
-        <activity android:name=".MapActivity"
+        <activity android:name="com.myapp.graduationproject.MapActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
 
         </activity>
         <activity
-            android:name=".SplashActivity"
+            android:name="com.myapp.graduationproject.SplashActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 
