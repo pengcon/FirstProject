@@ -23,7 +23,7 @@
 로그인 화면 |회원가입 화면|
 |------|---|
 <img src="https://github.com/pengcon/FirstProject/assets/88936374/b47910b2-708b-40b7-b5ec-95a4a870fd31a" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/27215bde-4745-4c7d-9e95-5269a8299007" width="200" heigth="1200">
-<br>
+
 - 회원가입 양식을 제출하는 **회원가입 레이아웃**을 구현함.
 - **Firebase**를 활용하여 , DB에 정보 저장 후 로그인할 수 있도록 구성함.
 - **카카오 SDK**를 활용하여 카카오 ID로 간편 로그인 기능을 구현함.
