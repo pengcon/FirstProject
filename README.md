@@ -27,4 +27,9 @@
 |------|---|---|
 |<img src="https://github.com/pengcon/FirstProject/assets/88936374/2e9197cc-7dd5-4f10-b702-1b7b5e95d581" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/401d1235-f651-4984-99b6-3863b0df7f75" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/ea26e54e-d990-436f-baad-d4b581b5c82e" width="195" heigth="1200">|
 
+### 여행지 추천 화면
+사용자 정보 입력|사용자 취향 입력|맞춤형 여행지 추천|
+|------|---|---|
+|<img src="https://github.com/pengcon/FirstProject/assets/88936374/f5acc234-a695-4600-af0f-04bd57a8bf33" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/e3cd5061-cc6e-41c4-8647-6ddc84fbd906" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/e03735fa-853d-4384-8149-a308090aff53" width="195" heigth="1200">|
+
 ### 🌱 주요 기능 설명
