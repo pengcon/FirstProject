@@ -25,6 +25,6 @@
 ### 홈화면
 내 위치 주변 관광정보|검색 위치 주변 관광정보|홈 화면 관광정보|
 |------|---|---|
-|<img src="https://github.com/pengcon/FirstProject/assets/88936374/2e9197cc-7dd5-4f10-b702-1b7b5e95d581" width="200" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/401d1235-f651-4984-99b6-3863b0df7f75" width="200" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/ea26e54e-d990-436f-baad-d4b581b5c82e" width="200" heigth="1200">|
+|<img src="https://github.com/pengcon/FirstProject/assets/88936374/2e9197cc-7dd5-4f10-b702-1b7b5e95d581" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/401d1235-f651-4984-99b6-3863b0df7f75" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/ea26e54e-d990-436f-baad-d4b581b5c82e" width="195" heigth="1200">|
 
 ### 🌱 주요 기능 설명
