@@ -24,7 +24,9 @@
 |------|---|
 <img src="https://github.com/pengcon/FirstProject/assets/88936374/b47910b2-708b-40b7-b5ec-95a4a870fd31a" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/27215bde-4745-4c7d-9e95-5269a8299007" width="200" heigth="1200">
 <br>
-
+- 회원가입 양식을 제출하는 **회원가입 레이아웃**을 구현함.
+- **Firebase**를 활용하여 , DB에 정보 저장 후 로그인할 수 있도록 구성함.
+- **카카오 SDK**를 활용하여 카카오 ID로 간편 로그인 기능을 구현함.
 
 
 ### 관광데이터 API 기반 관광 정보 제공
@@ -46,7 +48,7 @@
 |------|---|---|
 |<img src="https://github.com/pengcon/FirstProject/assets/88936374/e03735fa-853d-4384-8149-a308090aff53" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/e3cd5061-cc6e-41c4-8647-6ddc84fbd906" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/f5acc234-a695-4600-af0f-04bd57a8bf33" width="195" heigth="1200">|
 
-- AI 모델을 활용한 여행지 추천 기능 구현을 위해 백엔드 서버를 구축한 후 API 통신을 활용하기로 함.
+- **AI 모델을 활용한 여행지 추천 기능 구현**을 위해 백엔드 서버를 구축한 후 API 통신을 활용하기로 함.
 - **AI 허브**의 **국내 여행로그 데이터** 를 활용하여 AI 여행 추천 모델을 구현함.
 - **Django**로 AI 여행 추천 모델을 내장한 백엔드 서버를 구축함.
 - **Retrofit**을 사용하여 안드로이드와 서버 간의 HTTP 통신을 테스트하고 정상적으로 통신하는 것을 확인함.
