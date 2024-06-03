@@ -15,13 +15,16 @@
 ### 🌱 서비스 화면
 ## 📲 주요 기능 동작 화면
 
-### 로그인 / 회원가입
-일반 회원가입|네이버 회원가입|
+
 ### 로그인 / 회원가입
 로그인 화면 |회원가입 화면|
 |------|---|
 <img src="https://github.com/pengcon/FirstProject/assets/88936374/b47910b2-708b-40b7-b5ec-95a4a870fd31a" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/27215bde-4745-4c7d-9e95-5269a8299007" width="200" heigth="1200">
-  
 <br>
+
+### 홈화면
+내 위치 주변 관광정보|검색 위치 주변 관광정보|홈 화면 관광정보|
+|------|---|---|
+|<img src="https://github.com/pengcon/FirstProject/assets/88936374/2e9197cc-7dd5-4f10-b702-1b7b5e95d581" width="200" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/401d1235-f651-4984-99b6-3863b0df7f75" width="200" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/ea26e54e-d990-436f-baad-d4b581b5c82e" width="200" heigth="1200">|
 
 ### 🌱 주요 기능 설명
