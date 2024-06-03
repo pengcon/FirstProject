@@ -31,7 +31,7 @@
 내 위치 주변 관광정보|검색 위치 주변 관광정보|홈 화면 관광정보|
 |------|---|---|
 |<img src="https://github.com/pengcon/FirstProject/assets/88936374/2e9197cc-7dd5-4f10-b702-1b7b5e95d581" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/401d1235-f651-4984-99b6-3863b0df7f75" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/ea26e54e-d990-436f-baad-d4b581b5c82e" width="195" heigth="1200">|
-<br>
+
 - Google Maps Platform 지도 SDK를 사용해 프로젝트에 구글 지도 구현.
 - 국문 관광 정보 API를 통해 위치기반 관광 정보 요청 URL 구성.
 - XML 응답 메시지를 XmlPullParser로 안드로이드 환경으로 불러오기.
@@ -45,7 +45,7 @@
 사용자 정보 입력|사용자 취향 입력|맞춤형 여행지 추천|
 |------|---|---|
 |<img src="https://github.com/pengcon/FirstProject/assets/88936374/e03735fa-853d-4384-8149-a308090aff53" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/e3cd5061-cc6e-41c4-8647-6ddc84fbd906" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/f5acc234-a695-4600-af0f-04bd57a8bf33" width="195" heigth="1200">|
-<br>
+
 - AI 모델을 활용한 여행지 추천 기능 구현을 위해 백엔드 서버를 구축한 후 API 통신을 활용하기로 함.
 - **AI 허브**의 **국내 여행로그 데이터** 를 활용하여 AI 여행 추천 모델을 구현함.
 **Django**로 AI 여행 추천 모델을 내장한 백엔드 서버를 구축함.
