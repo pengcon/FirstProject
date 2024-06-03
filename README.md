@@ -32,7 +32,13 @@
 |------|---|---|
 |<img src="https://github.com/pengcon/FirstProject/assets/88936374/2e9197cc-7dd5-4f10-b702-1b7b5e95d581" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/401d1235-f651-4984-99b6-3863b0df7f75" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/ea26e54e-d990-436f-baad-d4b581b5c82e" width="195" heigth="1200">|
 <br>
-
+- Google Maps Platform 지도 SDK를 사용해 프로젝트에 구글 지도 구현.
+- 국문 관광 정보 API를 통해 위치기반 관광 정보 요청 URL 구성.
+- XML 응답 메시지를 XmlPullParser로 안드로이드 환경으로 불러오기.
+- RecyclerView로 관광 정보를 지도 하단 목록으로 제공.
+- 지도에 불러온 관광 정보의 좌표를 기반으로 마커 표시.
+- 필터 버튼으로 API 요청 메시지를 수정해 음식점, 카페 등의 정보만 제공.
+- 소상공인 상권정보 API를 사용해 소상공인 사업체 정보 제공 필터 버튼 추가.
 
 
 ### 사용자 추천 기반 여행지 추천 
@@ -40,5 +46,11 @@
 |------|---|---|
 |<img src="https://github.com/pengcon/FirstProject/assets/88936374/e03735fa-853d-4384-8149-a308090aff53" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/e3cd5061-cc6e-41c4-8647-6ddc84fbd906" width="195" heigth="1200">|<img src="https://github.com/pengcon/FirstProject/assets/88936374/f5acc234-a695-4600-af0f-04bd57a8bf33" width="195" heigth="1200">|
 <br>
+- AI 모델을 활용한 여행지 추천 기능 구현을 위해 백엔드 서버를 구축한 후 API 통신을 활용하기로 함.
+- **AI 허브**의 **국내 여행로그 데이터** 를 활용하여 AI 여행 추천 모델을 구현함.
+**Django**로 AI 여행 추천 모델을 내장한 백엔드 서버를 구축함.
+**Retrofit**을 사용하여 안드로이드와 서버 간의 HTTP 통신을 테스트하고 정상적으로 통신하는 것을 확인함.
+무중단 배포를 위해 **Google Cloud Platform**을 활용하여 서버를 배포함.
+**NGINX**와 **GUNICORN**을 사용하여 서버의 안정성을 확보함.
 
 
